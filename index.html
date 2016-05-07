@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Blackjack</title>
+		<?php require 'db/connection.php'; ?>
+		<link rel="stylesheet" type="text/css" href="style.css" />
+	</head>
+	
+	<body>
+	
+		<!-- logo header -->
+		<div id = "head">
+											<!-- NEED TO GET IMAGE CENTERED AUTOMATICALLY TO DIV -->
+			<img id = "imgHead" src="blackjack.jpg" width = 1000px; height = 100px; style = "margin-left: 250px;" />
+		</div>
+		
+		<!-- player card placements-->
+		<div id = "yourcards">
+			<div id = "firstCard">
+				first card
+			</div>
+			<div id = "secondCard">
+				second card
+			</div>
+			<div id = "hit1">
+				hit1
+			</div>
+			<div id = "hit2">
+				hit2
+			</div>
+			<div id = "hit3">
+				hit3
+			</div>
+			<div id = "hit4">
+				hit4
+			</div>
+		</div>
+		
+		<!-- dealer card placement -->
+		<div id = "dealercards">
+			<div id = "dealerFirstCard">
+				first card
+			</div>
+			<div id = "dealerSecondCard">
+				second card
+			</div>
+			<div id = "dhit1">
+				hit1
+			</div>
+			<div id = "dhit2">
+				hit2
+			</div>
+			<div id = "dhit3">
+				hit3
+			</div>
+			<div id = "dhit4">
+				hit4
+			</div>
+		</div>
+		
+		<!-- stats showing total values/chip count/bet amount -->
+		<div id = "stats">
+			<div id = "yourTotal">your total</div>
+			<div id = "dealerTotal"> dealer total</div>	
+			<div id = "betAmount">bet amount</div>
+			stats showing total values/chip count/bet amount
+		</div>
+		
+		
+		<!-- buttons for hit/stand deal and chip betting -->
+		<div id = "options" >
+			<div id = "actionPlacement">
+				<button id = "actionSize" name = "hit" value = "hit">Hit</button>
+				<button id = "actionSize" name = "stand" value = "stand">Stand</button>
+				<button id = "actionSize" name = "double" value = "double">Double</button>
+				<button id = "actionSize" name = "split" value = "split">Split</button>	
+			</div>
+			<div id = "dealButton">
+				<button id = "dealSize" name = "deal" value = "deal">Deal</button>
+			</div>
+			<div id = "chipPlacement" >
+				<button id = "chipSize" name = "one" value = "one">1</button>
+				<button id = "chipSize" name = "five" value = "five">5</button>
+				<button id = "chipSize" name = "twentyfive" value = "twentyfiive">25</button>
+				<button id = "chipSize" name = "fifty" value = "fifty">50</button>
+			</div>
+		</div>
+	</body>
+</html>

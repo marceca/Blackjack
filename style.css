@@ -1,0 +1,189 @@
+div{
+	border-style: solid;
+}
+
+
+/* TOP HEADER AND IMAGE */
+#head{
+	height: 100px;
+	width: 99%;
+}
+#imgHead{
+	margin: 0 auto;
+	text-align: center;
+}
+
+
+/* PLAYER CARDS */
+#yourcards{
+	position: absolute;
+	top: 112px;
+	left: 50px;
+	width: 500px;
+	height: 435px;
+}
+#firstCard{
+	position: absolute;
+	left: 10px;
+	height: 256px;
+	width: 175px;
+}
+#secondCard{
+	position: absolute;
+	left: 260px;
+	height: 256px;
+	width: 175px;
+}
+#hit1{
+	position: absolute;
+	top: 280px;
+	left: 10px;
+	height: 128px;
+	width:88px;
+}
+#hit2{
+	position: absolute;
+	top: 280px;
+	left: 132px;
+	height: 128px;
+	width: 88px;
+}
+#hit3{
+	position: absolute;
+	top: 280px;
+	left: 254px;
+	height: 128px;
+	width: 88px;
+}
+#hit4{
+	position: absolute;
+	top: 280px;
+	left: 376px;
+	height: 128px;
+	width: 88px;
+}
+
+
+
+	
+/* DEALER CARDS */	
+#dealercards{
+	position: absolute;
+	top: 112px;
+	right: 50px;
+	width: 500px;
+	height: 435px;
+}
+#dealerFirstCard{
+	position: absolute;
+	left: 10px;
+	height: 256px;
+	width: 175px;
+}
+#dealerSecondCard{
+	position: absolute;
+	left: 260px;
+	height: 256px;
+	width: 175px;
+}
+#dhit1{
+	position: absolute;
+	top: 280px;
+	left: 10px;
+	height: 128px;
+	width:88px;
+}
+#dhit2{
+	position: absolute;
+	top: 280px;
+	left: 132px;
+	height: 128px;
+	width: 88px;
+}
+#dhit3{
+	position: absolute;
+	top: 280px;
+	left: 254px;
+	height: 128px;
+	width: 88px;
+}
+#dhit4{
+	position: absolute;
+	top: 280px;
+	left: 376px;
+	height: 128px;
+	width: 88px;
+}
+
+
+
+/* -----STATS----- */
+#stats{
+	position:absolute;
+	top: 112px;
+	left: 553px;
+	width: 237px;
+	height: 435px;
+}
+#yourTotal{
+	margin: 0 auto;
+	margin-top: 10px;
+	height: 75px;
+	
+}
+#dealerTotal{
+	margin: 0 auto;
+	margin-top: 10px;
+	height: 75px;
+}
+
+#betAmount{
+margin: 0 auto;
+margin-top: 10px;
+height: 75px;
+}
+
+
+
+
+
+/* -----HOLDS --- HIT/STAND/SPLIT/DOUBLE --- DEAL --- CHIP AMOUNTS----- */
+#options{
+	position: absolute;
+	bottom: 0px;
+	height: 100px;
+	width: 99%;
+}
+
+/* -----HIT/STAND/SPLIT/DOUBLE BUTTON----- */
+#actionPlacement{
+	position: absolute;
+	left: 40px;
+}
+#actionSize{
+	width: 100px;
+	height:40px;
+	margin-left: 20px;
+}
+
+/* -----DEAL BUTTON----- */
+#dealButton{
+	position: absolute;
+	top: 0px;
+	left: 620px;
+}
+#dealSize{
+	width: 100px;
+	height: 40px;
+}
+
+/* -----CHIP BUTTONS----- */
+#chipPlacement{
+	position: absolute;
+	left: 800px;
+}
+#chipSize{
+	width: 100px;
+	height: 40px;
+	margin-left: 20px;
+}
